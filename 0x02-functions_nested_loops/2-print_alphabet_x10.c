@@ -1,19 +1,18 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - print lowercase 10 times
+ * print_alphabet_x10 - print lowercase ten times
  * by Mesodan
+ * return: Always 0
  */
 void print_alphabet_x10(void)
-{	
-	int count = 0;	
+{
+	int count;
 	char ch;
-	
-	while (Count++ <=9);
-		for (ch = 'a', ch <= 'z'; ch++)
-        {
-                	_putchar(ch);
-        }
-        {
-        _putchar('\n');
-        }
+
+	for (count = 1 ; count <= 10 ; count++)
+	{
+		for (ch = 'a' ; ch <= 'z' ; ch++)
+			_putchar(ch);
+		_putchar('\n');
+	}
 }
