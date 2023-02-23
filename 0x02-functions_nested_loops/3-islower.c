@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - function to check lowercase
+ * _islower- function to check lowercase
  * by Mesodan
  * Return: 1 if it is lowercase
  * otherwise return 0

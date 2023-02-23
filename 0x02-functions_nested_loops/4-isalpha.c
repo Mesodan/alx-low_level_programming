@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - function to print alphabet of both case
+ * _isalpha- function to print alphabet of both case
  * by Mesodan
- * Return: 1 for both lowercase and uppercase
+ * Return:1 for both lowercase and uppercase
  * otherwise 0 for non letter
  */
 
